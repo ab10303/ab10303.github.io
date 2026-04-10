@@ -12,12 +12,30 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Wed, 08 Apr 2026 20:07:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 20:07:52 +0800</lastBuildDate>
     
     
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>图库</title>
+      <link>https://example.org/post/test2/</link>
+      <pubDate>Thu, 09 Apr 2026 20:12:52 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://example.org/post/test2/</guid>
+      <description>
+        <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <p>测试</p>
+        
+        <hr><p>本文2026-04-09首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-09</p>]]>
+      </description>
+      
+    </item>
     
     
 
