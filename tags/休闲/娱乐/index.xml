@@ -12,30 +12,12 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Thu, 09 Apr 2026 20:07:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 20:07:52 +0800</lastBuildDate>
     
     
     <atom:link href="https://example.org/tags/%E4%BC%91%E9%97%B2/%E5%A8%B1%E4%B9%90/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
-    
-    
-
-    <item>
-      <title>图库</title>
-      <link>https://example.org/post/test2/</link>
-      <pubDate>Thu, 09 Apr 2026 20:12:52 &#43;0800</pubDate>
-      <author>my@email.ab10303.dpdns.org (琴音)</author>
-      <guid>https://example.org/post/test2/</guid>
-      <description>
-        <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
-        
-          <p>测试</p>
-        
-        <hr><p>本文2026-04-09首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-09</p>]]>
-      </description>
-      
-    </item>
     
     
 
@@ -48,12 +30,12 @@
       <description>
         <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
-          <div class="gallery-wall" id="photoWall-5aeb90445"></div>
+          <div class="gallery-wall" id="photoWall-fb6742f56"></div>
 <script>
   (function() {
-    const imageUrls = JSON.parse("[\"https://raw.githubusercontent.com/ab10303/hugo-tmp/c5d4b27b2cbb6410c0822cd57996a4644f153c9f/images/kaguya/1.png\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/2.jpg\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/3.png\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/4.png\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/26.jpeg\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/5.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/6.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/7.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/8.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/9.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/10.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/11.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/12.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/13.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/14.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/15.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/16.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/17.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/18.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/19.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/20.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/21.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/22.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/23.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/24.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/25.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/28.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/29.gif\",\"https://raw.githubusercontent.com/ab10303/hugo-tmp/refs/heads/master/images/kaguya/27.gif\"]");
+    const imageUrls = JSON.parse("[\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/1.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/2.jpg\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/3.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/4.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/26.jpeg\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/5.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/6.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/7.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/8.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/9.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/10.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/11.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/12.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/13.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/14.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/15.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/16.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/17.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/18.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/19.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/20.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/21.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/22.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/23.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/24.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/25.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/28.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/29.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/27.gif\"]");
     let images = [];
-    const wallId = '#photoWall-5aeb90445';
+    const wallId = '#photoWall-fb6742f56';
     let resizeTimer;
     let lastWidth = 0;
     
