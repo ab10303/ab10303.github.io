@@ -22,13 +22,13 @@
     
 
     <item>
-      <title>图库</title>
+      <title>自动部署测试</title>
       <link>https://example.org/post/test2/</link>
       <pubDate>Thu, 09 Apr 2026 20:12:52 &#43;0800</pubDate>
       <author>my@email.ab10303.dpdns.org (琴音)</author>
       <guid>https://example.org/post/test2/</guid>
       <description>
-        <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        <![CDATA[<h1>自动部署测试</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
           <p>测试</p>
         
@@ -48,12 +48,12 @@
       <description>
         <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
-          <div class="gallery-wall" id="photoWall-fb6742f56"></div>
+          <div class="gallery-wall" id="photoWall-91ba0307e"></div>
 <script>
   (function() {
-    const imageUrls = JSON.parse("[\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/1.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/2.jpg\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/3.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/4.png\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/26.jpeg\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/5.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/6.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/7.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/8.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/9.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/10.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/11.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/12.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/13.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/14.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/15.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/16.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/17.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/18.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/19.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/20.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/21.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/22.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/23.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/24.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/25.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/28.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/29.gif\",\"https://raw.githubusercontent.com/ab10303/ab10303.github.io/refs/heads/main/images/kaguya/27.gif\"]");
+    const imageUrls = JSON.parse("[\"https://ab10303.github.io/images/kaguya/1.png\",\"https://ab10303.github.io/images/kaguya/2.jpg\",\"https://ab10303.github.io/images/kaguya/3.png\",\"https://ab10303.github.io/images/kaguya/4.png\",\"https://ab10303.github.io/images/kaguya/26.jpeg\",\"https://ab10303.github.io/images/kaguya/5.gif\",\"https://ab10303.github.io/images/kaguya/6.gif\",\"https://ab10303.github.io/images/kaguya/7.gif\",\"https://ab10303.github.io/images/kaguya/8.gif\",\"https://ab10303.github.io/images/kaguya/9.gif\",\"https://ab10303.github.io/images/kaguya/10.gif\",\"https://ab10303.github.io/images/kaguya/11.gif\",\"https://ab10303.github.io/images/kaguya/12.gif\",\"https://ab10303.github.io/images/kaguya/13.gif\",\"https://ab10303.github.io/images/kaguya/14.gif\",\"https://ab10303.github.io/images/kaguya/15.gif\",\"https://ab10303.github.io/images/kaguya/16.gif\",\"https://ab10303.github.io/images/kaguya/17.gif\",\"https://ab10303.github.io/images/kaguya/18.gif\",\"https://ab10303.github.io/images/kaguya/19.gif\",\"https://ab10303.github.io/images/kaguya/20.gif\",\"https://ab10303.github.io/images/kaguya/21.gif\",\"https://ab10303.github.io/images/kaguya/22.gif\",\"https://ab10303.github.io/images/kaguya/23.gif\",\"https://ab10303.github.io/images/kaguya/24.gif\",\"https://ab10303.github.io/images/kaguya/25.gif\",\"https://ab10303.github.io/images/kaguya/28.gif\",\"https://ab10303.github.io/images/kaguya/29.gif\",\"https://ab10303.github.io/images/kaguya/27.gif\"]");
     let images = [];
-    const wallId = '#photoWall-fb6742f56';
+    const wallId = '#photoWall-91ba0307e';
     let resizeTimer;
     let lastWidth = 0;
     
