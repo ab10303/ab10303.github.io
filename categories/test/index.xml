@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on 琴音的博客</title>
-    <link>https://example.org/tags/test/</link>
+    <link>https://example.org/categories/test/</link>
     <description>Recent content from 琴音的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -12,30 +12,12 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Tue, 07 Apr 2026 01:05:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jun 2022 20:12:52 +0800</lastBuildDate>
     
     
-    <atom:link href="https://example.org/tags/test/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
+    <atom:link href="https://example.org/categories/test/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
-    <item>
-      <title>Hello World</title>
-      <link>https://example.org/post/hello/</link>
-      <pubDate>Tue, 07 Apr 2026 01:01:00 &#43;0800</pubDate>
-      <author>my@email.ab10303.dpdns.org (琴音)</author>
-      <guid>https://example.org/post/hello/</guid>
-      <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
-        
-          <p>&hellip;测试封面</p>
-        
-        <hr><p>本文2026-04-07首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-07</p>]]>
-      </description>
-      
-    </item>
     
     
 
