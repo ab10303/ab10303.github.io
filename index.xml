@@ -12,12 +12,34 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Wed, 08 Apr 2026 20:07:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 17:45:10 +0800</lastBuildDate>
     
     
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>猪猪看过来</title>
+      <link>https://example.org/post/pig/</link>
+      <pubDate>Fri, 10 Apr 2026 17:01:00 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://example.org/post/pig/</guid>
+      <description>
+        <![CDATA[<h1>猪猪看过来</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <h3 id="摸摸摸摸摸摸">
+<a class="header-anchor" href="#%e6%91%b8%e6%91%b8%e6%91%b8%e6%91%b8%e6%91%b8%e6%91%b8"></a>
+摸摸摸摸摸摸
+</h3><p><img src="https://ab10303.github.io/images/gif/1.gif" alt="image">
+<img src="https://ab10303.github.io/images/gif/3.webp" alt="image"></p>
+        
+        <hr><p>本文2026-04-10首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-10</p>]]>
+      </description>
+      
+    </item>
     
     
 
