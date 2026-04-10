@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>休闲/娱乐 on 琴音的博客</title>
-    <link>https://example.org/tags/%E4%BC%91%E9%97%B2/%E5%A8%B1%E4%B9%90/</link>
+    <link>https://ab10303.github.io/tags/%E4%BC%91%E9%97%B2/%E5%A8%B1%E4%B9%90/</link>
     <description>Recent content from 琴音的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 08 Apr 2026 20:07:52 +0800</lastBuildDate>
     
     
-    <atom:link href="https://example.org/tags/%E4%BC%91%E9%97%B2/%E5%A8%B1%E4%B9%90/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://ab10303.github.io/tags/%E4%BC%91%E9%97%B2/%E5%A8%B1%E4%B9%90/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>图库</title>
-      <link>https://example.org/post/test/</link>
+      <link>https://ab10303.github.io/post/test/</link>
       <pubDate>Tue, 07 Apr 2026 20:12:52 &#43;0800</pubDate>
       <author>my@email.ab10303.dpdns.org (琴音)</author>
-      <guid>https://example.org/post/test/</guid>
+      <guid>https://ab10303.github.io/post/test/</guid>
       <description>
         <![CDATA[<h1>图库</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
@@ -192,7 +192,7 @@
   })();
 </script><link rel="preload" as="style" href="/css/gallery.min.94cd3998ffbf0abe50a0f8a9251c39f9df60899a02db59add20026d894f2d44f.css" onload="this.onload=null;this.rel='stylesheet'" />
         
-        <hr><p>本文2026-04-07首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-08</p>]]>
+        <hr><p>本文2026-04-07首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-08</p>]]>
       </description>
       
     </item>
@@ -201,16 +201,16 @@
 
     <item>
       <title>自动部署测试</title>
-      <link>https://example.org/post/test2/</link>
+      <link>https://ab10303.github.io/post/test2/</link>
       <pubDate>Mon, 06 Apr 2026 20:12:52 &#43;0800</pubDate>
       <author>my@email.ab10303.dpdns.org (琴音)</author>
-      <guid>https://example.org/post/test2/</guid>
+      <guid>https://ab10303.github.io/post/test2/</guid>
       <description>
         <![CDATA[<h1>自动部署测试</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
           <p>测试</p>
         
-        <hr><p>本文2026-04-06首发于<a href='https://example.org/'>琴音的博客</a>，最后修改于2026-04-06</p>]]>
+        <hr><p>本文2026-04-06首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-06</p>]]>
       </description>
       
     </item>
