@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMD on 琴音的博客</title>
+    <link>https://ab10303.github.io/tags/amd/</link>
+    <description>Recent content from 琴音的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <managingEditor>my@email.ab10303.dpdns.org (琴音)</managingEditor>
+    <webMaster>my@email.ab10303.dpdns.org (琴音)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Sun, 05 Apr 2026 21:12:52 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://ab10303.github.io/tags/amd/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>AMD超频记录</title>
+      <link>https://ab10303.github.io/post/amd/</link>
+      <pubDate>Sun, 05 Apr 2026 20:12:52 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://ab10303.github.io/post/amd/</guid>
+      <description>
+        <![CDATA[<h1>AMD超频记录</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <h1 id="1观测频率电压">
+<a class="header-anchor" href="#1%e8%a7%82%e6%b5%8b%e9%a2%91%e7%8e%87%e7%94%b5%e5%8e%8b"></a>
+1、观测频率电压
+</h1><p>从4700Mhz开始到pbo默认频率，观测金银核心和最烂核心的电压差。</p>
+<p>以我个人的9700X为例（有点雷</p>
+<p>4700Mhz下 金核1.036v 银核1.039v 最烂核1.082v，核心差距0.046v</p>
+        
+        <hr><p>本文2026-04-05首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-05</p>]]>
+      </description>
+      
+        <category>Windows优化</category>
+      
+    </item>
+    
+  </channel>
+</rss>

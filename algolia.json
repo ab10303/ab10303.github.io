@@ -30,6 +30,12 @@
     "updated": "2026-04-06 20:07:52"
   }, 
   {
+    "objectID": "81f98a9b773e2a9ef24043de95e67a4bd0a32c39",
+    "permalink": "/post/amd/",
+    "title": "AMD超频记录","content": " 1、观测频率电压 从4700Mhz开始到pbo默认频率，观测金银核心和最烂核心的电压差。\n以我个人的9700X为例（有点雷\n4700Mhz下 金核1.036v 银核1.039v 最烂核1.082v，核心差距0.046v\n意味着至少需要把最烂核电压-9才能对齐金核，才能让主板电压降低至金核附近，以至于不被最烂核拖累导致主板cpu电压偏高。\n这边需要说明下，在默认情况下主板会在最烂核心需求电压的基础上多给出0.015v左右，以我的为例在4700Mhz默认下主板会给cpu提供1.096v（根据负载会有波动）。\n","date": "2026-04-05 20:12:52",
+    "updated": "2026-04-05 21:12:52"
+  }, 
+  {
     "objectID": "504adca92ad95fbf4c471bdb6cbcb300a8685a40",
     "permalink": "/post/main/",
     "title": "Markdown Basic Elements","content": " Markdown 基本元素 标题 H1 H2 H3 H4 H5 H6 强调 Emphasis, aka italics, with asterisks or underscores.\nStrong emphasis, aka bold, with asterisks or underscores.\nCombined emphasis with asterisks and underscores.\nStrikethrough uses two tildes. Scratch this.\n列表 Definition List (dl) Ordered List (ol) List Item 1 List Item 2 List Item 3 Unordered List (ul) List Item 1 List Item 2 List Item 3 段落 Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam …","date": "2022-06-09 20:12:52",
