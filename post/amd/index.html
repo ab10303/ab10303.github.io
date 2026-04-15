@@ -46,7 +46,7 @@
   <meta property="og:image" content="https://ab10303.github.io/images/gallery/p11.webp" />
   <meta property="article:author" content="琴音" />
   <meta property="article:published_time" content="2026-04-05T20:12:52&#43;08:00" />
-  <meta property="article:modified_time" content="2026-04-05T21:12:52&#43;08:00" /><meta property="article:tag" content="Windows, AMD" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://ab10303.github.io/images/gallery/p11.webp" />
+  <meta property="article:modified_time" content="2026-04-05T21:12:52&#43;08:00" /><meta property="article:tag" content="AMD" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://ab10303.github.io/images/gallery/p11.webp" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.e6d7e843a8f62a4abd971e310eda49edfdc403c953c009ef9e8149b733dad2ca.css" /><link
     rel="preload"
     as="style"
@@ -170,7 +170,7 @@
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-bilibili sidebar-social-icon">
@@ -257,19 +257,28 @@
 <a class="header-anchor" href="#1%e8%a7%82%e6%b5%8b%e9%a2%91%e7%8e%87%e7%94%b5%e5%8e%8b"></a>
 1、观测频率电压
 </h1><p>从4700Mhz开始到pbo默认频率，观测金银核心和最烂核心的电压差。</p>
-<p>以我个人的9700X为例~~(有点雷~~</p>
+<p>以我个人的9700X为例 (<del>有点雷</del></p>
 <p>4700Mhz下</p>
 <p>金核1.036v 银核1.039v 最烂核1.082v，核心差距0.046v</p>
 <p>意味着至少需要把最烂核电压-9才能对齐金核，才能让主板电压降低至金核附近，以至于不被最烂核拖累导致主板cpu电压偏高，温度也升高。</p>
 <p>这边需要说明下，在默认情况下主板会在最烂核心需求电压的基础上多给出0.015v左右。</p>
 <p>以我的为例在4700Mhz默认下主板会给cpu提供1.096v（根据负载会有波动）。</p>
-<p>而随着频率升高，电压差也会随之升高，个别好的核心变化小，可以认定为雕核心。</p>
-<p>保守点 不追求极限，可以选在一个电压差突然变大的一个频率档位来平衡金核和最烂核的电压差。</p>
+<p>而随着频率升高，电压请求也会随之升高，好的核心变化小，可以认定为雕核心。</p>
+<p>我的5350Mhz~5450Mhz  (&ndash;5350Mhz核心差距0.062v&ndash;5450Mhz核心差距0.071v)</p>
+<p>从core0~core7电压差分别是 0.037 0.037 0.036 0.039 0.036 0.037 0.041 0.045</p>
+<p>整体提升还算平稳</p>
+<p>但从5450Mhz~5550Mhz 最烂核就顶不住了 (&ndash;5500Mhz核心差距0.082v&ndash;5550Mhz核心差距0.105v)</p>
+<p>0.038 0.039 0.038 0.044 0.039 0.042 0.052 0.069</p>
+<p>可以看到，最烂核和金核的电压差提升有0.031v</p>
+<p>最烂核在升频到5550Mhz时电压请求抬升较大</p>
+<p>为温度考虑可以适当降低到合适的频率进行更合适的负压</p>
+<p>在合适的频率去对齐倒数第二的核心也是一个选择</p>
+<p><img src="https://ab10303.github.io/images/gallery/amd.webp" alt="image"></p>
 <h1 id="常见误区负压太多导致缩缸">
 <a class="header-anchor" href="#%e5%b8%b8%e8%a7%81%e8%af%af%e5%8c%ba%e8%b4%9f%e5%8e%8b%e5%a4%aa%e5%a4%9a%e5%af%bc%e8%87%b4%e7%bc%a9%e7%bc%b8"></a>
 常见误区（负压太多导致缩缸）
 </h1><p>调整电压是让最烂核别拖累金银核心的，不是让你强行对齐电压的。</p>
-<p>强行对齐频率高了，分支预测性能和寿命都大幅降低。</p>
+<p>强行对齐频率高了，分支预测性能和寿命都降低。</p>
 <p>嫌麻烦，可以直接在最烂核比金核多负压8就完事</p>
 </div>
     <footer class="article-footer"><div class="share-wrapper"><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://ab10303.github.io/post/amd/&amp;title=AMD%e8%b6%85%e9%a2%91%e8%ae%b0%e5%bd%95&amp;desc=CPU%e8%b4%9f%e5%8e%8b%e7%af%87&amp;source=https://ab10303.github.io/" target="_blank" rel="noopener noreferrer" title="AMD超频记录">
@@ -322,13 +331,6 @@
     >
     </li></ul>
 <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
-      <a
-        class="article-tag-list-link"
-        href="/tags/windows"
-        rel="tag"
-        >Windows</a
-      >
-    </li><li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
         href="/tags/amd"
@@ -398,10 +400,10 @@
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;2.7k</span
+          >&nbsp;2.9k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:09</span>
+        <span class="icon-coffee">&nbsp;00:10</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -448,7 +450,7 @@
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">6</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-bilibili sidebar-social-icon">
