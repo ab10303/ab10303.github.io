@@ -253,7 +253,7 @@
 一、电压安全范围
 </h2><h3 id="vddio">
 <a class="header-anchor" href="#vddio"></a>
-VDDIO：
+VDDIO
 </h3><p>不超过1.45，日常1.4即可（对于电压激进的微星和华硕，建议不超过1.42，日常1.37），具体电压值请通过hwinfo或bios显示的值判断。</p>
         
         <hr><p>本文2026-04-06首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-07</p>]]>
