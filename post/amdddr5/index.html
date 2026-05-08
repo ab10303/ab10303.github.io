@@ -171,6 +171,7 @@
         <li><a href="#前言">前言</a></li>
         <li><a href="#第一时序设置">第一时序设置</a></li>
         <li><a href="#后续小参设置">后续小参设置</a></li>
+        <li><a href="#附上个人参数配置">附上个人参数配置</a></li>
       </ul>
     </li>
   </ul>
@@ -334,15 +335,14 @@ MISC
 </h3><p>8000c36分频（单面颗粒）：VDDIO 1.35-1.4v，VDD和VDDQ通常在1.45-1.5v之间。</p>
 <p>8000c34分频（单面颗粒）：VDDIO 1.35-1.4v，VDD和VDDQ通常在1.5-1.55v之间。</p>
 <p>8400c36分频（单面颗粒）：VDDIO 1.45v左右，VDD和VDDQ通常在1.55v甚至更高。</p>
-<p>9000c48分频：贴吧里有850电竞雕达成的记录，请自行查看。VDDIO 1.45v，VDD和VDDQ 1.55v。</p>
-<p>9200c46分频（24*2，技嘉xtreme，9600开机即蓝）：VDDIO 1.45v，VDD和VDDQ 1.58v。</p>
+<p>9000c48分频：VDDIO 1.45v，VDD和VDDQ 1.55v。</p>
 <h4 id="至此你可以看到规律vddio在135-145之间做选择就行了vdd和vddq随着压时序和频率的提升可以以005v为单位增加">
 <a class="header-anchor" href="#%e8%87%b3%e6%ad%a4%e4%bd%a0%e5%8f%af%e4%bb%a5%e7%9c%8b%e5%88%b0%e8%a7%84%e5%be%8bvddio%e5%9c%a8135-145%e4%b9%8b%e9%97%b4%e5%81%9a%e9%80%89%e6%8b%a9%e5%b0%b1%e8%a1%8c%e4%ba%86vdd%e5%92%8cvddq%e9%9a%8f%e7%9d%80%e5%8e%8b%e6%97%b6%e5%ba%8f%e5%92%8c%e9%a2%91%e7%8e%87%e7%9a%84%e6%8f%90%e5%8d%87%e5%8f%af%e4%bb%a5%e4%bb%a5005v%e4%b8%ba%e5%8d%95%e4%bd%8d%e5%a2%9e%e5%8a%a0"></a>
 至此，你可以看到规律，VDDIO在1.35-1.45之间做选择就行了，VDD和VDDQ随着压时序和频率的提升，可以以0.05v为单位增加。
 </h4><h3 id="soc-1">
 <a class="header-anchor" href="#soc-1"></a>
 SOC
-</h3><p>SOC：fclk越大，SOC越高（6000c28 fclk2000，你的soc可能只需要1.11-1.17，但我希望你能给足1.2v，如果你摸到了极限值，可能+0.03到0.05）。</p>
+</h3><p>SOC：fclk越大，SOC越高（6000c28 fclk2000，你的soc可能只需要1.11-1.17，一般建议给足1.2v，8000c36 fclk2000，soc可以尝试1.05向下摸，如果摸到了极限值，可以+0.03到0.05）。</p>
 <p>经常有人说“同频状态下，fclk是频率/3；分频状态下，fclk是频率/4”，这其实不是理论公式，而是过去“保底”的经验公式。因为AMD的IF（Infinity Fabric）永远是小水管，只要硬件体质达标，fclk是越高越好的。在9000系，fclk似乎保底2067-2133都是可以的，同频状态下，fclk 2133可以无脑1.25v，这也是我推荐的fclk值和电压，如果稳不住请减少fclk或增加soc。</p>
 <p>Fclk 2200普遍会有止步不前或倒吸现象（这是IF稳定性不够，通常使用超越缓存的测试项目，如PRIME95 AVX2 Huge或Heavy项目，你会发现大量WHEA错误）。至此，我建议不要2200，不要2200，不要2200。如果你是极限超频党，请从VDDG for IO、VDDG for CCD、PBO2负压情况、开启LN2模式超过1.3v的SOC来寻找答案。后果自负！后果自负！后果自负！</p>
 <h2 id="三时序和小参">
@@ -374,6 +374,11 @@ SOC
 <p>AMD7000系，9000系推荐AUTO，8000系CPU推荐tRDRDSC=tWRWRSC=1（PS：此值显著增加核显带宽，不用核显的此小参直接AUTO）</p>
 <p>tRDRDSCL，tWRWRSCL</p>
 <p>AMD7000系，9000系推荐AUTO，8000系CPU推荐tRDRDSCL=tWRWRSCL/2，tWRWRSCL=0.0035*内存频率（PS：此值略微增加核显带宽，不用核显的此小参直接AUTO）</p>
+<hr>
+<h3 id="附上个人参数配置">
+<a class="header-anchor" href="#%e9%99%84%e4%b8%8a%e4%b8%aa%e4%ba%ba%e5%8f%82%e6%95%b0%e9%85%8d%e7%bd%ae"></a>
+附上个人参数配置
+</h3><p><img src="https://ab10303.github.io/images/gallery/amdnc.webp" alt="image"></p>
 </div>
     <footer class="article-footer"><div class="share-wrapper"><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://ab10303.github.io/post/amdddr5/&amp;title=AMD%e5%86%85%e5%ad%98%e8%b6%85%e9%a2%91&amp;desc=%e7%94%b5%e5%8e%8b%e3%80%81%e6%97%b6%e5%ba%8f%e3%80%81%e5%b0%8f%e5%8f%82&amp;source=https://ab10303.github.io/" target="_blank" rel="noopener noreferrer" title="AMD内存超频">
       <div class="share-icon icon icon-qq"></div>
@@ -545,6 +550,7 @@ SOC
         <li><a href="#前言">前言</a></li>
         <li><a href="#第一时序设置">第一时序设置</a></li>
         <li><a href="#后续小参设置">后续小参设置</a></li>
+        <li><a href="#附上个人参数配置">附上个人参数配置</a></li>
       </ul>
     </li>
   </ul>
