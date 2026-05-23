@@ -2,7 +2,7 @@
   {
     "objectID": "e3a30fbf8e7f5d1c44932eaf17625a61520a30b1",
     "permalink": "/post/amdyes/",
-    "title": "AMD 9850X3D 综合设置记录","content": " 9850X3D 低温配置 VDDIO填1.26v实际为1.28v~1.296v\nSOC最终填入0.90500v\nVDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)\n","date": "2026-05-23 22:12:52",
+    "title": "AMD 9850X3D 综合设置记录","content": " 9850X3D 低温配置 VDDIO填1.26v实际为1.28v~1.296v\nSOC最终填入0.90500v\nVDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)\nPBO scalar X2\n功耗墙 手动\nPPT：105 TDC：120 EDC：180（下调多了会影响L3 cache读写速度）\n","date": "2026-05-23 22:12:52",
     "updated": "2026-04-05 22:50:52"
   }, 
   {
