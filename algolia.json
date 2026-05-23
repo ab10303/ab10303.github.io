@@ -1,5 +1,11 @@
 [
   {
+    "objectID": "e3a30fbf8e7f5d1c44932eaf17625a61520a30b1",
+    "permalink": "/post/amdyes/",
+    "title": "AMD 9850X3D 综合设置记录","content": " 9850X3D 低温配置 VDDIO填1.26v实际为1.28v~1.296v\nSOC最终填入0.90500v\nVDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)\n","date": "2026-05-23 22:12:52",
+    "updated": "2026-04-05 22:50:52"
+  }, 
+  {
     "objectID": "1e7e1aec2b36126b978f1ca41c81bdc114ce7428",
     "permalink": "/post/test/",
     "title": "图库","content": " ","date": "2026-04-07 20:12:52",

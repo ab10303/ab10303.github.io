@@ -48,6 +48,32 @@ VDDIO
     
 
     <item>
+      <title>AMD 9850X3D 综合设置记录</title>
+      <link>https://ab10303.github.io/post/amdyes/</link>
+      <pubDate>Sat, 23 May 2026 22:12:52 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://ab10303.github.io/post/amdyes/</guid>
+      <description>
+        <![CDATA[<h1>AMD 9850X3D 综合设置记录</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <h2 id="9850x3d-低温配置">
+<a class="header-anchor" href="#9850x3d-%e4%bd%8e%e6%b8%a9%e9%85%8d%e7%bd%ae"></a>
+9850X3D 低温配置
+</h2><p><img src="https://ab10303.github.io/images/gallery/amd9850.webp" alt="image"></p>
+<p>VDDIO填1.26v实际为1.28v~1.296v</p>
+<p>SOC最终填入0.90500v</p>
+<p>VDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)</p>
+        
+        <hr><p>本文2026-05-23首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-05</p>]]>
+      </description>
+      
+        <category>Windows优化</category>
+      
+    </item>
+    
+    
+
+    <item>
       <title>AMD超频记录</title>
       <link>https://ab10303.github.io/post/amd/</link>
       <pubDate>Sun, 05 Apr 2026 20:12:52 &#43;0800</pubDate>
