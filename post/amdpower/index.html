@@ -272,16 +272,16 @@
 1. 创建一个基于平衡电源计划的计划
 </h3><p>打开cmd</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /list
-</span></span></code></pre></div><p>（name:&ldquo;Game26S1&rdquo;）</p>
-<p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
+</span></span></code></pre></div><p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
 <p>创建新的计划</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /duplicatescheme 381b4222-f694-41f0-9685-ff5bb260df2e
 </span></span></code></pre></div><p>复制新建电源方案 GUID: e822f1cf-9ffa-4d81-b6d7-dbedac6e83e4  (平衡)</p>
-<p>以下直接全部复制粘贴即可（改名＋启用）（name:&ldquo;Game26S1&rdquo;）</p>
+<p>以下直接全部复制粘贴即可（改名＋启用）（name:&ldquo;Game26S1&rdquo;） （”SET GUID2“改为新建电源方案）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"><span class="k">SET</span> <span class="nv">GUID2</span><span class="p">=</span>e822f1cf-9ffa-4d81-b6d7-dbedac6e83e4
 </span></span><span class="line"><span class="cl">powercfg /changename <span class="nv">%GUID2%</span> <span class="s2">&#34;Game26S1&#34;</span> <span class="s2">&#34;Game_Power_Plans_26S1win11&#34;</span>
 </span></span><span class="line"><span class="cl">powercfg /S <span class="nv">%GUID2%</span>
-</span></span></code></pre></div><h3 id="修改电源选项配置">
+</span></span></code></pre></div><hr>
+<h3 id="修改电源选项配置">
 <a class="header-anchor" href="#%e4%bf%ae%e6%94%b9%e7%94%b5%e6%ba%90%e9%80%89%e9%a1%b9%e9%85%8d%e7%bd%ae"></a>
 修改电源选项配置
 </h3><p>可以直接使用PowerSettingsExplorer进行修改</p>

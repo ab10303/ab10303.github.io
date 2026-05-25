@@ -117,8 +117,11 @@ VDDIO
 1. 创建一个基于平衡电源计划的计划
 </h3><p>打开cmd</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /list
-</span></span></code></pre></div><p>（name:&ldquo;Game26S1&rdquo;）</p>
-<p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
+</span></span></code></pre></div><p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
+<p>创建新的计划</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /duplicatescheme 381b4222-f694-41f0-9685-ff5bb260df2e
+</span></span></code></pre></div><p>复制新建电源方案 GUID: e822f1cf-9ffa-4d81-b6d7-dbedac6e83e4  (平衡)</p>
+<p>以下直接全部复制粘贴即可（改名＋启用）（name:&ldquo;Game26S1&rdquo;） （”SET GUID2“改为新建电源方案）</p>
         
         <hr><p>本文2026-05-24首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-05</p>]]>
       </description>
