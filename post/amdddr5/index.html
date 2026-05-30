@@ -365,8 +365,8 @@ SOC
 后续小参设置
 </h3><p>tRC：无脑给tRP+tRAS，比如你是28-36-36-36，那tRC就给72。</p>
 <p>tWR：无脑48。</p>
-<p>tREFI：无脑65535。极限超频（需要调整信号完整性超频），可以尝试改成65528（经验值）。这主板厂有一个公式，内存厂有一个公式，听谁说都没意思，不耐温就降低。非要公式，那就：内存频率×CPU刷新率/2000。AMD刷新率为3900，Intel为1950。</p>
-<p>tRFC1：我一般看别人是不是有点水平，第一眼就看这个。（你小参可以瞎给，我有时候也瞎给，但你好歹tRFC延迟至少是个整数啊！）公式：内存频率*tRFC延迟/2000。尝试：单面Adie颗粒tRFC延迟120ns<del>160ns。Mdie：160</del>170ns。双面3G Mdie：170ns~200ns。个人建议：随便给个就行了，你会发现tRFC1对实际读写速度的影响很小，别纠结。给个整数好看点，显得你专业。</p>
+<p>tREFI：无脑65535。极限超频（需要调整信号完整性超频），可以尝试改成65528（经验值）。</p>
+<p>tRFC1：480。公式：内存频率*tRFC延迟/2000。尝试：单面Adie颗粒tRFC延迟120ns<del>160ns。Mdie：160</del>170ns。双面3G Mdie：170ns~200ns。个人建议：随便给个就行了，你会发现tRFC1对实际读写速度的影响很小，别纠结。给个整数好看点，显得你专业。</p>
 <p>tRRDS和tWTRS：建议8，要压就6，不建议更低。你会发现狂压没区别。</p>
 <p>tRRDL和tWTRL：建议16，要压就12，不建议更低。你会发现狂压没区别。</p>
 <p>tFAW：≥ 4* tRRDS。也就是tRRDS是8，那tFAW就32，tRRDS给6，tFAW就24，建议28。你会发现狂压没区别。</p>
@@ -378,7 +378,7 @@ SOC
 <h3 id="附上个人参数配置">
 <a class="header-anchor" href="#%e9%99%84%e4%b8%8a%e4%b8%aa%e4%ba%ba%e5%8f%82%e6%95%b0%e9%85%8d%e7%bd%ae"></a>
 附上个人参数配置
-</h3><p><img src="https://ab10303.github.io/images/gallery/amdnc.webp" alt="image"></p>
+</h3><p><img src="https://ab10303.github.io/images/windows/amdnc.webp" alt="image"></p>
 </div>
     <footer class="article-footer"><div class="share-wrapper"><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://ab10303.github.io/post/amdddr5/&amp;title=AMD%e5%86%85%e5%ad%98%e8%b6%85%e9%a2%91&amp;desc=%e7%94%b5%e5%8e%8b%e3%80%81%e6%97%b6%e5%ba%8f%e3%80%81%e5%b0%8f%e5%8f%82&amp;source=https://ab10303.github.io/" target="_blank" rel="noopener noreferrer" title="AMD内存超频">
       <div class="share-icon icon icon-qq"></div>
@@ -499,10 +499,10 @@ SOC
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;7.1k</span
+          >&nbsp;7.0k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:19</span>
+        <span class="icon-coffee">&nbsp;00:18</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"

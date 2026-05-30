@@ -275,7 +275,7 @@ VDDIO
           <h2 id="9850x3d-低温配置">
 <a class="header-anchor" href="#9850x3d-%e4%bd%8e%e6%b8%a9%e9%85%8d%e7%bd%ae"></a>
 9850X3D 低温配置
-</h2><p><img src="https://ab10303.github.io/images/gallery/amd9850.webp" alt="image"></p>
+</h2><p><img src="https://ab10303.github.io/images/windows/amd9850.webp" alt="image"></p>
 <p>VDDIO填1.26v实际为1.28v~1.296v</p>
 <p>SOC最终填入0.90500v</p>
 <p>VDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)</p>
@@ -327,16 +327,18 @@ VDDIO
           <h2 id="创建新的电源计划">
 <a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e6%96%b0%e7%9a%84%e7%94%b5%e6%ba%90%e8%ae%a1%e5%88%92"></a>
 创建新的电源计划
-</h2><p><img src="https://ab10303.github.io/images/gallery/amddy.webp" alt="image"></p>
+</h2><p><img src="https://ab10303.github.io/images/windows/amddy.webp" alt="image"></p>
 <h3 id="1-创建一个基于平衡电源计划的计划">
 <a class="header-anchor" href="#1-%e5%88%9b%e5%bb%ba%e4%b8%80%e4%b8%aa%e5%9f%ba%e4%ba%8e%e5%b9%b3%e8%a1%a1%e7%94%b5%e6%ba%90%e8%ae%a1%e5%88%92%e7%9a%84%e8%ae%a1%e5%88%92"></a>
 1. 创建一个基于平衡电源计划的计划
 </h3><p>打开cmd</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /list
-</span></span></code></pre></div><p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
+</span></span></code></pre></div><p><img src="https://ab10303.github.io/images/windows/cmd1.webp" alt="image"></p>
+<p>复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (平衡)</p>
 <p>创建新的计划</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">powercfg /duplicatescheme 381b4222-f694-41f0-9685-ff5bb260df2e
-</span></span></code></pre></div><p>复制新建电源方案 GUID: e822f1cf-9ffa-4d81-b6d7-dbedac6e83e4  (平衡)</p>
+</span></span></code></pre></div><p><img src="https://ab10303.github.io/images/windows/cmd2.webp" alt="image"></p>
+<p>复制新建电源方案 GUID: 08f811f8-925c-48e9-94bb-9c5a60537605</p>
 <p>以下直接全部复制粘贴即可（改名＋启用）（name:&ldquo;Game26S1&rdquo;） （”SET GUID2的值“改为新建电源方案）</p>
         
         <hr><p>本文2026-05-24首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-05</p>]]>
