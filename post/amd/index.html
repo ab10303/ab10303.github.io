@@ -8,9 +8,9 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  AMD超频记录 | 琴音
+  AMD PBO设置 | 琴音
 </title>
-<meta name="description" content="CPU负压篇"/><script>
+<meta name="description" content="CPU分核负压、Curve Shaper曲线优化"/><script>
   window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"https://ab10303.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_a0oqhord1y\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
   
 </script>
@@ -33,10 +33,10 @@
     type="font/woff2"
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/css/loader.min.ac746e154f756f8220326eeb52a719f142ab038be5a8ddf30ea5ef15ef2356ea.css" /><meta property="og:type" content="website" />
-  <meta property="og:title" content="AMD超频记录 | 琴音" />
+  <meta property="og:title" content="AMD PBO设置 | 琴音" />
   <meta
     property="og:description"
-    content="CPU负压篇"
+    content="CPU分核负压、Curve Shaper曲线优化"
   />
   <meta property="og:url" content="https://ab10303.github.io/post/amd/" />
   <meta
@@ -129,9 +129,9 @@
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索" aria-label="搜索"></a></nav></div>
 <header id="header" aria-label="Site header"><picture></picture>
-    <img  fetchpriority="high" src="/images/gallery/p11.webp" alt="AMD超频记录"><div id="header-outer">
+    <img  fetchpriority="high" src="/images/gallery/p11.webp" alt="AMD PBO设置"><div id="header-outer">
     <div id="header-title"><span id="logo">
-            <h1 data-aos="slide-up">AMD超频记录</h1>
+            <h1 data-aos="slide-up">AMD PBO设置</h1>
           </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
@@ -146,7 +146,20 @@
       data-aos="fade-up"
     ><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
 <div class="sidebar-toc-wrapper toc-div-class">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#cpu分核负压">CPU分核负压</a>
+      <ul>
+        <li><a href="#1观测频率电压">1、观测频率电压</a></li>
+      </ul>
+    </li>
+    <li><a href="#curve-shaper曲线优化">Curve Shaper曲线优化</a>
+      <ul>
+        <li><a href="#参数设置">参数设置</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div></div>
           <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
@@ -253,37 +266,49 @@
       >2026-04-05</time
     >
   </span></div>
-</div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="1观测频率电压">
+</div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h2 id="cpu分核负压">
+<a class="header-anchor" href="#cpu%e5%88%86%e6%a0%b8%e8%b4%9f%e5%8e%8b"></a>
+CPU分核负压
+</h2><h3 id="1观测频率电压">
 <a class="header-anchor" href="#1%e8%a7%82%e6%b5%8b%e9%a2%91%e7%8e%87%e7%94%b5%e5%8e%8b"></a>
 1、观测频率电压
-</h1><p>从4700Mhz开始到pbo默认频率，观测金银核心和最烂核心的电压差。</p>
+</h3><p>从4700Mhz开始到pbo默认频率，观测金银核心和最差核心的电压差。</p>
 <p>以我个人的9700X为例 (<del>有点雷</del></p>
 <p>4700Mhz下</p>
-<p>金核1.036v 银核1.039v 最烂核1.082v，核心差距0.046v</p>
-<p>意味着至少需要把最烂核电压-9才能对齐金核，才能让主板电压降低至金核附近，以至于不被最烂核拖累导致主板cpu电压偏高，温度也升高。</p>
-<p>这边需要说明下，在默认情况下主板会在最烂核心需求电压的基础上多给出0.015v左右。</p>
+<p>金核1.036v 银核1.039v 最差核1.082v，核心差距0.046v</p>
+<p>意味着至少需要把最差核电压-9才能对齐金核，才能让主板电压降低至金核附近，以至于不被最差核拖累导致主板cpu电压偏高，温度也升高。</p>
+<p>这边需要说明下，在默认情况下主板会在最差核心需求电压的基础上多给出0.015v左右。</p>
 <p>以我的为例在4700Mhz默认下主板会给cpu提供1.096v（根据负载会有波动）。</p>
 <p>而随着频率升高，电压请求也会随之升高，好的核心变化小，可以认定为雕核心。</p>
-<p>我的5350Mhz~5450Mhz  (&ndash;5350Mhz核心差距0.062v&ndash;5450Mhz核心差距0.071v)</p>
-<p>从core0~core7电压差分别是 0.037 0.037 0.036 0.039 0.036 0.037 0.041 0.045</p>
+<p>我的5350Mhz升频到5450Mhz  (&ndash;5350Mhz核心差距0.062v&ndash;5450Mhz核心差距0.071v)</p>
+<p>从5350Mhz到5450Mhz升频电压分别是 0.037(金) 0.037 0.036 0.039 0.036 0.037 0.041 0.045(最差)</p>
 <p>整体提升还算平稳</p>
-<p>但从5450Mhz~5550Mhz 最烂核就顶不住了 (&ndash;5500Mhz核心差距0.082v&ndash;5550Mhz核心差距0.105v)</p>
-<p>0.038 0.039 0.038 0.044 0.039 0.042 0.052 0.069</p>
-<p>可以看到，最烂核和金核的电压差提升有0.031v</p>
-<p>最烂核在升频到5550Mhz时电压请求抬升较大</p>
+<p>但从5450Mhz升频到5550Mhz 最差核就顶不住了 (&ndash;5500Mhz核心差距0.082v&ndash;5550Mhz核心差距0.105v)</p>
+<p>0.038(金) 0.039 0.038 0.044 0.039 0.042 0.052 0.069(最差)</p>
+<p>可以看到最差核心在这一档对电压请求的提升非常大，我这颗9700x频率基本在这到头了</p>
 <p>为温度考虑可以适当降低到合适的频率进行更合适的负压</p>
 <p>在合适的频率去对齐倒数第二的核心也是一个选择</p>
+<p>我这颗在5500Mhz金核和最差核在电压请求上是最后一个平稳提升的档位，就以它为最高频使用了</p>
 <p><img src="https://ab10303.github.io/images/windows/amd.webp" alt="image"></p>
-<h1 id="常见误区负压太多导致缩缸">
-<a class="header-anchor" href="#%e5%b8%b8%e8%a7%81%e8%af%af%e5%8c%ba%e8%b4%9f%e5%8e%8b%e5%a4%aa%e5%a4%9a%e5%af%bc%e8%87%b4%e7%bc%a9%e7%bc%b8"></a>
-常见误区（负压太多导致缩缸）
-</h1><p>调整电压是让最烂核别拖累金银核心的，不是让你强行对齐电压的。</p>
-<p>强行对齐频率高了，分支预测性能和寿命都降低。</p>
-<p>嫌麻烦，可以直接在最烂核比金核多负压8就完事</p>
+<hr>
+<h2 id="curve-shaper曲线优化">
+<a class="header-anchor" href="#curve-shaper%e6%9b%b2%e7%ba%bf%e4%bc%98%e5%8c%96"></a>
+Curve Shaper曲线优化
+</h2><p>在高频率下温度升高会影响电压波动升高，而Curve Shaper的功能可以在温度升高时进行负压，以保持电压的平稳的，使温度下降来保持高频率并且不影响低负载下的情况，这就是Curve Shaper的精髓。</p>
+<hr>
+<h3 id="参数设置">
+<a class="header-anchor" href="#%e5%8f%82%e6%95%b0%e8%ae%be%e7%bd%ae"></a>
+参数设置
+</h3><p>游戏时频率基本维持在最高，所以我们只需要调整HIGH和MAX频段</p>
+<p>LT MT HT 三档分别对应温度0度，30度，60度</p>
+<p>在5550Mhz时我的电压通常在1.18v~1.25v波动，建议先观察自己的电压峰值定最高温的负压值，然后测试稳定性</p>
+<p>以下是我的设置，仅供参考</p>
+<p>HIGH LT -3   HIGH MT -7   HIGH HT -10</p>
+<p>MAX LT -3   MAX MT -7   MAX HT -10</p>
 </div>
-    <footer class="article-footer"><div class="share-wrapper"><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://ab10303.github.io/post/amd/&amp;title=AMD%e8%b6%85%e9%a2%91%e8%ae%b0%e5%bd%95&amp;desc=CPU%e8%b4%9f%e5%8e%8b%e7%af%87&amp;source=https://ab10303.github.io/" target="_blank" rel="noopener noreferrer" title="AMD超频记录">
+    <footer class="article-footer"><div class="share-wrapper"><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://ab10303.github.io/post/amd/&amp;title=AMD%20PBO%e8%ae%be%e7%bd%ae&amp;desc=CPU%e5%88%86%e6%a0%b8%e8%b4%9f%e5%8e%8b%e3%80%81Curve%20Shaper%e6%9b%b2%e7%ba%bf%e4%bc%98%e5%8c%96&amp;source=https://ab10303.github.io/" target="_blank" rel="noopener noreferrer" title="AMD PBO设置">
       <div class="share-icon icon icon-qq"></div>
-    </a><a href="javascript:;"  title="AMD超频记录">
+    </a><a href="javascript:;"  title="AMD PBO设置">
       <div class="share-icon icon icon-weixin"><div id="share-weixin">
             <div class="share-weixin-dom">
               <div class="share-weixin-content">
@@ -400,7 +425,7 @@
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;7.0k</span
+          >&nbsp;7.2k</span
         >
         &nbsp;|&nbsp;
         <span class="icon-coffee">&nbsp;00:18</span>
@@ -426,7 +451,20 @@
       </div><nav id="mobile-nav" aria-label="Mobile navigation">
   <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
 <div class="sidebar-toc-wrapper toc-div-class">
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#cpu分核负压">CPU分核负压</a>
+      <ul>
+        <li><a href="#1观测频率电压">1、观测频率电压</a></li>
+      </ul>
+    </li>
+    <li><a href="#curve-shaper曲线优化">Curve Shaper曲线优化</a>
+      <ul>
+        <li><a href="#参数设置">参数设置</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 </div></div>
         <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
@@ -609,9 +647,9 @@
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "琴音",
-          title: "AMD超频记录",
+          title: "AMD PBO设置",
           url: "https:\/\/ab10303.github.io\/post\/amd\/",
-          description: "CPU负压篇",
+          description: "CPU分核负压、Curve Shaper曲线优化",
           cover: "https:\/\/ab10303.github.io\/images\/gallery\/p11.webp",
         };
       </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
