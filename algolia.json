@@ -42,6 +42,12 @@
     "updated": "2026-04-05 21:12:52"
   }, 
   {
+    "objectID": "cd5b18a35adb0085cb71a7b63faa5e3d88cc116f",
+    "permalink": "/post/win11/",
+    "title": "win11系统安装教程","content": " 步骤 1、准备一个容量不小于8G的U盘 2、制作PE 插在一个能上网的电脑上，浏览器搜索微PE，选第二个，64位下载。\n下载好后打开，选右下角安装PE到U盘，勾选包含DOS工具箱，确认待写入U盘，立即安装PE到U盘，等待进度条完成即可。\n3、下载win11镜像 浏览器搜索win11，下载Windows11，下载需要的win11版本ISO，下载完成后打开，选“为另一台电脑创建安装介质”，下一步到“选择使用的介质”，选择ISO，下载完成后拖入U盘即可。\n4、分区 插入新主机后，进入Bios，修改启动项，选择U盘PE后重启，进入PE选择分区工具，选择需要安装系统的硬盘，选择快速分区，分区表类型GPT，分区数目根据需求修改，系统盘推荐200G，对齐扇区改为4096扇区，点击确定等待10秒左右，完成分区。\n5、安装 打开CGI备份还原，选择C盘，选择镜像文件Windows.ISO，选择Windows11 pro，执行，选择完成后重启，确定，等待进度条完成电脑自动重启，进入Bios，修改启动项为Windows boot，保存后重启等待系统加载完成，至此安装完成。\n","date": "2026-04-05 20:12:52",
+    "updated": "2026-04-05 21:12:52"
+  }, 
+  {
     "objectID": "504adca92ad95fbf4c471bdb6cbcb300a8685a40",
     "permalink": "/post/main/",
     "title": "Markdown Basic Elements","content": " Markdown 基本元素 标题 H1 H2 H3 H4 H5 H6 强调 Emphasis, aka italics, with asterisks or underscores.\nStrong emphasis, aka bold, with asterisks or underscores.\nCombined emphasis with asterisks and underscores.\nStrikethrough uses two tildes. Scratch this.\n列表 Definition List (dl) Ordered List (ol) List Item 1 List Item 2 List Item 3 Unordered List (ul) List Item 1 List Item 2 List Item 3 段落 Lorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam …","date": "2022-06-09 20:12:52",

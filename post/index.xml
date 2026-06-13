@@ -290,6 +290,36 @@ VDDIO
     
 
     <item>
+      <title>win11系统安装教程</title>
+      <link>https://ab10303.github.io/post/win11/</link>
+      <pubDate>Sun, 05 Apr 2026 20:12:52 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://ab10303.github.io/post/win11/</guid>
+      <description>
+        <![CDATA[<h1>win11系统安装教程</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <h2 id="步骤">
+<a class="header-anchor" href="#%e6%ad%a5%e9%aa%a4"></a>
+步骤
+</h2><h3 id="1准备一个容量不小于8g的u盘">
+<a class="header-anchor" href="#1%e5%87%86%e5%a4%87%e4%b8%80%e4%b8%aa%e5%ae%b9%e9%87%8f%e4%b8%8d%e5%b0%8f%e4%ba%8e8g%e7%9a%84u%e7%9b%98"></a>
+1、准备一个容量不小于8G的U盘
+</h3><h3 id="2制作pe">
+<a class="header-anchor" href="#2%e5%88%b6%e4%bd%9cpe"></a>
+2、制作PE
+</h3><p>插在一个能上网的电脑上，浏览器搜索<a href="https://www.wepe.com.cn/download.html">微PE</a>，选第二个，64位下载。</p>
+<p>下载好后打开，选右下角安装PE到U盘，勾选包含DOS工具箱，确认待写入U盘，立即安装PE到U盘，等待进度条完成即可。</p>
+        
+        <hr><p>本文2026-04-05首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-04-05</p>]]>
+      </description>
+      
+        <category>Windows优化</category>
+      
+    </item>
+    
+    
+
+    <item>
       <title>AMD PBO设置</title>
       <link>https://ab10303.github.io/post/amd/</link>
       <pubDate>Sun, 05 Apr 2026 20:12:52 &#43;0800</pubDate>

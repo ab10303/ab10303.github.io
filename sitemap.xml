@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -49,6 +48,9 @@
     <lastmod>2026-04-07T21:12:52+08:00</lastmod>
   </url><url>
     <loc>https://ab10303.github.io/post/amd/</loc>
+    <lastmod>2026-04-05T21:12:52+08:00</lastmod>
+  </url><url>
+    <loc>https://ab10303.github.io/post/win11/</loc>
     <lastmod>2026-04-05T21:12:52+08:00</lastmod>
   </url><url>
     <loc>https://ab10303.github.io/archives/</loc>
