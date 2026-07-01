@@ -1,5 +1,11 @@
 [
   {
+    "objectID": "7c8ff7a68a78800c86845ec430281dd66b4a6d2b",
+    "permalink": "/post/amdyes2/",
+    "title": "AMD9850X3D 综合设置记录 2.0","content": " 9850X3D 低温偏性能配置 根据HWiNFO64显示\n主板实际给的VDDG VDDIO SOC会有偏差\nVDDG会动态变化，手动输入值不一定有效\nVDDIO手动1.22v，实际主板给的1.248v\nSOC手动0.905v，实际主板给的0.920v\nPBO scalar X3\n功耗墙 手动\nPPT：98 TDC：120 EDC：180\n这套配置在室温28度下日常游戏基本50度出头\n满功耗温度最高70度以内，R23 98W功耗23000分足够了\n","date": "2026-07-01 16:16:35",
+    "updated": "2026-07-01 16:55:52"
+  }, 
+  {
     "objectID": "882d8bfe2a5cb29f2584fe4f7e47536bfc6bdf88",
     "permalink": "/post/amdpower/",
     "title": "AMD 电源选项设置","content": " 创建新的电源计划 1. 创建一个基于平衡电源计划的计划 打开cmd\npowercfg /list 复制 电源方案 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e (平衡)\n创建新的计划\npowercfg /duplicatescheme 381b4222-f694-41f0-9685-ff5bb260df2e 复制新建电源方案 GUID: 08f811f8-925c-48e9-94bb-9c5a60537605\n以下直接全部复制粘贴即可（改名＋启用）（name:\u0026amp;ldquo;Game26S1\u0026amp;rdquo;） （”SET GUID2的值“改为新建电源方案）\nSET GUID2=08f811f8-925c-48e9-94bb-9c5a60537605 powercfg /changename %GUID2% \u0026amp;#34;Game26S1\u0026amp;#34; \u0026amp;#34;Game_Power_Plans_26S1win11\u0026amp;#34; powercfg /S %GUID2% 修改电源选项配置 可以直接使用PowerSettingsExplorer进行修改\n处理器性能提高阈值：70 （默认：30） 处理器性能降低阈值：40 （默认：10） 处理器性能核心放置最小核心数量：50 （默认：100，改为50 目的是低负载时不使用超线程） 处理器性能内核休止并发阈值：25 （默认：97，数值越高，系统越倾向于多核负载） 处理器性能核心放置增加时间：1 （默认：3，值越小，内核休止越快） 处理器能源性能首选项策略：45~70按需设置 （值越大，频率越低，主要影响待机时的频率） 允许节流状态：自动 （默认） 处理器性能降低策略：Rocket 处理器性能增加策略：Rocket 处理器性能提升策略：IdealAggressive 处理器性能时间检查间隔：30毫秒 （默认：15毫秒，值越小，cpu频率调整越快） 处理器性能核心放置减小策略：理想的核心数量 （默认） 处理器性能核心放置增加策略：理想的核心数量 （默认） 处理器性能历史计数：3 （默认：1，配合“时间检查间隔”使用） 生效的异类策略：0 （默认：4，区别不大，可以自己测试哪个好用） 异类线程调度策略：所有处理器 （默认：自动） 异类短运行线程调度策略：首选高性能处理器 （默认） 处理器性能核心放置过度利用 …","date": "2026-05-24 11:12:52",
@@ -8,7 +14,7 @@
   {
     "objectID": "e3a30fbf8e7f5d1c44932eaf17625a61520a30b1",
     "permalink": "/post/amdyes/",
-    "title": "AMD 9850X3D 综合设置记录","content": " 9850X3D 低温配置 VDDIO填1.26v实际为1.28v~1.296v\nSOC最终填入0.90500v\nVDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)\nPBO scalar X2\n功耗墙 手动\nPPT：105 TDC：120 EDC：180（下调多了会影响L3 cache读写速度）\n","date": "2026-05-23 22:12:52",
+    "title": "AMD9850X3D 综合设置记录","content": " 9850X3D 低温配置 VDDIO填1.26v实际为1.28v~1.296v\nSOC最终填入0.90500v\nVDD和VDDQ填1.37v实际为1.365v~1.38v(多数偏向1.38v)\nPBO scalar X2\n功耗墙 手动\nPPT：105 TDC：120 EDC：180（下调多了会影响L3 cache读写速度）\n","date": "2026-05-23 22:12:52",
     "updated": "2026-05-23 22:50:52"
   }, 
   {

@@ -12,12 +12,39 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sun, 24 May 2026 13:30:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 16:55:52 +0800</lastBuildDate>
     
     
     <atom:link href="https://ab10303.github.io/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>AMD9850X3D 综合设置记录 2.0</title>
+      <link>https://ab10303.github.io/post/amdyes2/</link>
+      <pubDate>Wed, 01 Jul 2026 16:16:35 &#43;0800</pubDate>
+      <author>my@email.ab10303.dpdns.org (琴音)</author>
+      <guid>https://ab10303.github.io/post/amdyes2/</guid>
+      <description>
+        <![CDATA[<h1>AMD9850X3D 综合设置记录 2.0</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        
+          <h2 id="9850x3d-低温偏性能配置">
+<a class="header-anchor" href="#9850x3d-%e4%bd%8e%e6%b8%a9%e5%81%8f%e6%80%a7%e8%83%bd%e9%85%8d%e7%bd%ae"></a>
+9850X3D 低温偏性能配置
+</h2><p><img src="https://ab10303.github.io/images/windows/amd98502.webp" alt="image"></p>
+<p>根据HWiNFO64显示</p>
+<p>主板实际给的VDDG VDDIO SOC会有偏差</p>
+<p>VDDG会动态变化，手动输入值不一定有效</p>
+<p>VDDIO手动1.22v，实际主板给的1.248v</p>
+        
+        <hr><p>本文2026-07-01首发于<a href='https://ab10303.github.io/'>琴音的博客</a>，最后修改于2026-07-01</p>]]>
+      </description>
+      
+        <category>Windows优化</category>
+      
+    </item>
     
     
 
@@ -57,13 +84,13 @@
     
 
     <item>
-      <title>AMD 9850X3D 综合设置记录</title>
+      <title>AMD9850X3D 综合设置记录</title>
       <link>https://ab10303.github.io/post/amdyes/</link>
       <pubDate>Sat, 23 May 2026 22:12:52 &#43;0800</pubDate>
       <author>my@email.ab10303.dpdns.org (琴音)</author>
       <guid>https://ab10303.github.io/post/amdyes/</guid>
       <description>
-        <![CDATA[<h1>AMD 9850X3D 综合设置记录</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
+        <![CDATA[<h1>AMD9850X3D 综合设置记录</h1><p>作者：琴音（my@email.ab10303.dpdns.org）</p>
         
           <h2 id="9850x3d-低温配置">
 <a class="header-anchor" href="#9850x3d-%e4%bd%8e%e6%b8%a9%e9%85%8d%e7%bd%ae"></a>
