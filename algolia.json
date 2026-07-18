@@ -1,5 +1,11 @@
 [
   {
+    "objectID": "81191f93562db92f4c178a519d9540de8275d948",
+    "permalink": "/post/cs/",
+    "title": "Hello 测试vps部署","content": "","date": "2026-07-18 01:01:00",
+    "updated": "2026-07-18 01:05:10"
+  }, 
+  {
     "objectID": "7c8ff7a68a78800c86845ec430281dd66b4a6d2b",
     "permalink": "/post/amdyes2/",
     "title": "AMD9850X3D 综合设置记录 2.0","content": " 9850X3D 低温偏性能配置 根据HWiNFO64显示\n主板实际给的VDDG VDDIO SOC会有偏差\nVDDG会动态变化，手动输入值不一定有效\nVDDIO手动1.22v，实际主板给的1.248v\nSOC手动0.905v，实际主板给的0.920v\nPBO scalar X3\n功耗墙 手动\nPPT：98 TDC：120 EDC：180\n这套配置在室温28度下日常游戏基本50度出头\n满功耗温度最高70度以内，R23 98W功耗23000分足够了\n","date": "2026-07-01 16:16:35",
